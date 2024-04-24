@@ -2,3 +2,7 @@ abbr {
     font-style: italic;
     color: chocolate;
   }
+ img {
+    width: 500px;
+    height: 450px;
+ } 
