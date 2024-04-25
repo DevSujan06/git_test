@@ -6,3 +6,45 @@ abbr {
     width: 500px;
     height: 450px;
  } 
+ .forecast{
+   margin: 0;
+   padding: 0.3rem;
+   background-color: #eee;
+ }
+ .forecast > h1,
+ .day forecast{
+   margin: 0.5rem;
+   padding: 0.3rem;
+   font-size: 1.2rem;
+  }
+
+  .day forecast{
+   background: right;
+   content: content-box;
+   border: border-box;
+   background-image: url(Rain.jpeg);
+   background-color: white;
+
+  }
+  .forecast > h2,
+  .day forecast > p{
+   margin: 0.3;
+   font-size: 1.0rem;
+  }
+  aside {
+   width: 40%;
+   padding-left: 0.5rem;
+   margin-left: 0.5rem;
+   float: right;
+   box-shadow: inset 5px 0 5px -5px #29627e;
+   font-style: italic;
+   color: #29627e;
+ }
+ 
+ aside > p {
+   margin: 0.5rem;
+ }
+ em{
+   color:rgb(5, 73, 73);
+ }
+ 
