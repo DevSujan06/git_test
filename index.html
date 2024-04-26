@@ -33,7 +33,7 @@
 -->
 <p>Contact the author of this page:</p>
 <address>
-    <a href="mailto: chaudharysujan544@gmail.com">chaudharysujan544@gmail.com</a><br>
+    <a class="linkcolor" href="mailto: chaudharysujan544@gmail.com" target="_blank">chaudharysujan544@gmail.com</a><br>
     <a href="tel:+14379735839">+14379735839</a>
 </address>
 
@@ -100,7 +100,7 @@ The <article> HTML element represents a self-contained composition in a document
     </article>
 </article>
 <div class="about-me">
-<p>sujan chaudhari. I dont know why but i love <em>smarika</em> but for her</p>
+<p>sujan chaudhari. I dont know why but i love <cite>smarika</cite> but for her</p>
  <aside><p>i am just a friend and that hurts a lot</p></aside>
 </div>
 
@@ -121,7 +121,45 @@ In this case we use descendant combinator (the empty space)
     color:blue;
 } -->
 
+<style>
+    /* hsl (hue,saturation, lightness)*/
+    p.one {
+      border-style: solid;
+      border-color: hsl(0, 100%, 50%); /* red */
+    }
+    
+    p.two {
+      border-style: solid;
+      border-color: hsl(240, 100%, 50%); /* blue */
+    }
+    
+    p.three {
+      border-style: solid;
+      border-color: hsl(0, 0%, 73%); /* grey */
+    }
+    </style>
+    <div class="border-color">
+    <h2>The border-color Property</h2>
+    <p>The color of the border can also be specified using HSL values:</p>
+    
+    <p class="one">A solid red border</p>
+    <p class="two">A solid blue border</p>
+    <p class="three">A solid grey border</p>
+    </div> 
+    <h2>The outline-color Property</h2>
+    
+<p>The outline-color property is used to set the color of the outline.</p>
 
+<p class="ex1">A solid red outline.</p>
+<p class="ex2">A dotted blue outline.</p>
+<p class="ex3">An outset grey outline.</p>  
 
+<p>A wise man says 
+    <q>Never get too attached to anyone, this will only hurt you later.</q>
+</p>
+<h1 style="background-color:dodgerblue; color:white">Hello World</h1>
+<h1 style="border:3px solid tomato; text-align:center; margin:auto;">Sujan Chaudhari</h1>
+<br>
+<a class="buttontry" href="https://www.w3schools.com/html/html_links.asp" target="_blank">This is Link</a>
 </body>
 </html>

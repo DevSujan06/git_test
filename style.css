@@ -58,3 +58,58 @@ abbr {
   color:blue;
 }
 
+cite{
+  color:rgb(4, 135, 135);
+}
+p.ex1{
+  border: 1px solid black;
+  outline-style:solid;
+  outline-color:red;
+
+}
+p.ex2{
+  border: 1px solid black;
+  outline-style:dotted;
+  outline-color: blue;
+}
+p.ex3{
+  border: 1px solid black;
+  outline-style:outset;
+  outline-color:grey;
+  outline-offset: 5px;
+}
+.linkcolor:link{
+  color:powderblue;
+  background-color: transparent;
+  text-decoration:none;
+}
+.linkcolor:visited{
+  color:pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+.linkcolor:hover{
+  color:red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.linkcolor:active{
+  color:yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.buttontry{
+  display:inline-block;
+  padding:5px;
+  text-decoration:none;
+  color:white;
+  margin:auto;
+  text-align:center;
+  background-color: tomato;
+
+}
+.buttontry:hover, :active{
+  background-color: red;
+  text-decoration: underline;
+}
