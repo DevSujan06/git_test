@@ -77,13 +77,13 @@ This element is used only within a <map> element.
 <img usemap="#infographics" src="Infographics.png" alt="MDN infographics" />
 
 
-<!--
+<!-- 
     The Article Contents element
 The <article> HTML element represents a self-contained composition in a document, page, application, or site,
      which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: 
      a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, 
-     an interactive widget or gadget, or any other independent item of content.
--->
+     an interactive widget or gadget, or any other independent item of content. -->
+
 <article class="forecast">
     <h1>Weather forecast for toronto</h1>
     <article class="day forecast">
@@ -99,8 +99,28 @@ The <article> HTML element represents a self-contained composition in a document
         <p>Heavy Rain</p>
     </article>
 </article>
+<div class="about-me">
 <p>sujan chaudhari. I dont know why but i love <em>smarika</em> but for her</p>
  <aside><p>i am just a friend and that hurts a lot</p></aside>
+</div>
+
+<div class="class1">
+    <div class="class2">Text blue</div>
+</div>
+<!-- Here we have an element with a class of class2 which is within an element with a class
+of class 1. SO below css ie .Descendat combinator will target this.
+In this case we use descendant combinator (the empty space)
+
+.class1 .class2{
+    color:blue;
+} -->
+
+<div class="class1 class2">Text blue</div>
+<!-- Here in this case we have an element with both classes declared 
+.class1.class2{
+    color:blue;
+} -->
+
 
 
 </body>
